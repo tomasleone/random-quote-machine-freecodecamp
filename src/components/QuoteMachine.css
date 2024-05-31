@@ -1,0 +1,50 @@
+/* Estilos para el contenedor de la frase */
+#quote-box {
+  background-color: #fff; 
+  border-radius: 6px; 
+  padding: 30px; 
+  width: 60%; 
+  margin: 0 auto; 
+  border: 1px solid black;
+}
+
+/* Estilos para el texto de la frase */
+#text {
+  color: #282c34; 
+  font-size: 1.5em;
+  font-style: italic; 
+  margin-bottom: 20px; 
+}
+
+/* Estilos para el autor */
+#author {
+  color: #282c34; 
+  font-size: 1.2em; 
+}
+
+/* Estilos para el botón de nueva cita */
+#new-quote {
+    background-color: #61dafb; 
+    color: #282c34; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    font-size: 1em; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+    margin-right: 10px; 
+    font-family: 'Roboto', sans-serif;
+
+  }
+
+#new-quote:hover {
+  background-color: #1b88b6; 
+}
+
+#tweet-quote {
+    color: #61dafb; 
+    font-size: 1.5em; 
+    margin-left: 10px; 
+}
+
+
